@@ -101,13 +101,16 @@
 .button-behance {
 	--button-text:#ffffff;
 	--button-background:#0057FF;
-  --button-border:1px solid #FFFFFF;
+	--button-border:1px solid #FFFFFF;
 }
 
 /* Bluesky */
 .button-bluesky {
 	--button-text:#FFFFFF;
 	--button-background:#1185FE;
+}
+.button-bluesky:hover span::after {
+	font-size: 0.8rem;
 }
 
 /* Bluesky Alt */
@@ -617,6 +620,9 @@
 	--button-text:#ffffff;
 	--button-background:#282828;
 	--button-border:1px solid #FFFFFF;
+}
+.button-yt:hover span::after {
+	font-size: 1rem;
 }
 
 /* YouTube Alt */
