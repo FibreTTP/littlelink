@@ -109,9 +109,6 @@
 	--button-text:#FFFFFF;
 	--button-background:#1185FE;
 }
-.button-bluesky:hover span::after {
-	font-size: 0.8rem;
-}
 
 /* Bluesky Alt */
 .button-bluesky-alt {
@@ -620,9 +617,6 @@
 	--button-text:#ffffff;
 	--button-background:#282828;
 	--button-border:1px solid #FFFFFF;
-}
-.button-yt:hover span::after {
-	font-size: 1rem;
 }
 
 /* YouTube Alt */
