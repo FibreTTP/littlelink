@@ -9,8 +9,8 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* Only include brand-specific button styling here */
 .button,button {
-  color:var(--button-text,#000000);
-  background-color:var(--button-background,transparent);
+	color:var(--button-text,#000000);
+	background-color:var(--button-background,transparent);
 	border:var(--button-border,none);
 	transition:filter 0.2s ease,transform 0.2s ease;
 }
@@ -307,7 +307,7 @@
 .button-ko-fi {
 	--button-text:#ffffff;
 	--button-background:#000000;
-  --button-border:1px solid #FFFFFF;
+	--button-border:1px solid #FFFFFF;
 }
 
 /* Last.fm */
@@ -413,7 +413,7 @@
 .button-paypal {
 	--button-text:#ffffff;
 	--button-background:#002991;
-  --button-border:1px solid #FFFFFF;
+	--button-border:1px solid #FFFFFF;
 }
 
 /* Pinterest */
@@ -635,5 +635,5 @@
 .button-zoom {
 	--button-text:#ffffff;
 	--button-background:#0B5CFF;
-  --button-border:1px solid #FFFFFF;
+	--button-border:1px solid #FFFFFF;
 }
